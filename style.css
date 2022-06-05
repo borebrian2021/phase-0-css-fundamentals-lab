@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+nav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+nav > a{
+  background-color: grey;
+  margin: 10px;
+  padding:10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+figure{
+  width: 100%;
+  display: block;
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+}
+#featured-property{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body{
+  display: block;
+
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 800px;
+}
+#details{
+width: 100%;
+}
+#details> div{
+  justify-content: center;
+  text-align: center;
+  float: left;
+  width: 25%;
+  background-color: red;
+}
+header{
+  text-align: center;
+}
